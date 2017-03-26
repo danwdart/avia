@@ -1,0 +1,30 @@
+{
+  "name": "avia",
+  "version": "1.0.0",
+  "description": "twitter bot",
+  "main": ".app/index.js",
+  "scripts": {
+    "start": "node $npm_package_main",
+    "build": "babel -d .app src",
+    "watch": "$npm_package_scripts_build -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathiedart/avia.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "author": "Kathie Dart <git@kathiedart.uk>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kathiedart/avia/issues"
+  },
+  "homepage": "https://github.com/kathiedart/avia#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.0"
+  }
+}
