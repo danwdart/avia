@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kathiedart/avia.git"
+    "url": "git+https://github.com/danwdart/avia.git"
   },
   "keywords": [
     "twitter",
     "bot"
   ],
-  "author": "Kathie Dart <git@kathiedart.uk>",
+  "author": "Dan Dart <git@dandart.co.uk>",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/kathiedart/avia/issues"
+    "url": "https://github.com/danwdart/avia/issues"
   },
-  "homepage": "https://github.com/kathiedart/avia#readme",
+  "homepage": "https://github.com/danwdart/avia#readme",
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.0"
