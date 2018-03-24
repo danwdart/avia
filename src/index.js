@@ -2,9 +2,9 @@ import Twitter from 'twitter';
 import objConfig from '../config';
 
 const client = new Twitter(objConfig.client),
-    pRt = id => client.post(
-        `statuses/retweet/${id}`
-    ),
+    //pRt = id => client.post(
+    //    `statuses/retweet/${id}`
+    //),
     pQuote = (tweet, strText) => client.post(
         `statuses/update`,
         {
@@ -17,7 +17,7 @@ const client = new Twitter(objConfig.client),
             track: strAction
         }
     ),
-    pDelay = ms => new Promise((res, rej) => setTimeout(res, ms)),
+    pDelay = ms => new Promise(res => setTimeout(res, ms)),
     pListenAndRt = async (strAction, strText) => {
         console.log(`Listening for ${strAction}`);
         try {
