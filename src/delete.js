@@ -14,11 +14,11 @@ const client = new Twitter(objConfig.client),
             console.log(myTweets);
 
             for (const {id_str} of myTweets) {
-                console.log(`Deleting tweet ${id_str}`)
+                console.log(`Deleting tweet ${id_str}`);
                 await client.post(
                     `statuses/destroy/${id_str}`,
                     {}
-                )
+                );
             }
         } catch (err) {
             console.error(err);
