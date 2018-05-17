@@ -21,10 +21,9 @@ const client = new Twitter(objConfig.client),
     pListenAndRt = async (strAction, strText) => {
         console.log(`Listening for ${strAction}`);
         try {
-            let stream = await pStream(strAction);
-
-            stream.on(`data`, async tweet => await pQuote(tweet, strText));
-            stream.on(`error`, err => console.log(err));
+            for await (const tweet of pStream(strAction)) {
+                await pQuote(tweet, strText)
+            }
         } catch (err) {
             console.log(err);
         }
