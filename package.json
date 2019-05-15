@@ -25,14 +25,14 @@
   },
   "homepage": "https://github.com/danwdart/avia#readme",
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.2.0"
+    "eslint": "^5.16.0"
   },
   "dependencies": {
-    "event-iterator": "^1.0.0",
+    "event-iterator": "^1.2.0",
     "twitter": "^1.7.1"
   }
 }
