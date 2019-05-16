@@ -22,7 +22,7 @@ const client = new Twitter(objConfig.client),
         console.log(`Listening for ${strAction}`);
         try {
             for await (const tweet of pStream(strAction)) {
-                await pQuote(tweet, strText)
+                await pQuote(tweet, strText);
             }
         } catch (err) {
             console.log(err);
