@@ -8,7 +8,9 @@
     "delete": "node .app/delete",
     "build": "babel -d .app src",
     "watch": "$npm_package_scripts_build -w",
-    "test": "eslint src/*.js"
+    "test": "eslint src/*.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,8 @@
   },
   "dependencies": {
     "event-iterator": "^1.2.0",
-    "twitter": "^1.7.1"
-  }
+    "twitter": "^1.7.1",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
