@@ -28,7 +28,7 @@
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
-    "@babel/eslint": "^11.0.0-beta.2",
+    "@babel/eslint-parser": "^7.15.8",
     "eslint": "^8.1.0"
   },
   "dependencies": {
