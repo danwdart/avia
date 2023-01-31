@@ -29,7 +29,7 @@
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
     "@babel/eslint-parser": "^7.19.1",
-    "eslint": "^8.31.0"
+    "eslint": "^8.33.0"
   },
   "dependencies": {
     "event-iterator": "^2.0.0",
